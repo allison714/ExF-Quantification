@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Excel temporary / lock files
+~$*.xlsx
+~$*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
