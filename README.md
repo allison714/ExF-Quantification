@@ -5,6 +5,7 @@ Measures the linear expansion factor (ExF) of pan-ExM samples from their synapse
 The program finds synapses in the pan stain, measures the distance between the presynaptic dense projections (DPs) and the postsynaptic density (PSD), and divides it by that distance before expansion, 82 nm. The method and the 82 nm value come from M'Saad, Cairns et al., *Nature Biotechnology* 2025. What is taken from whom is set out in [METHODS_AND_CREDITS.md](METHODS_AND_CREDITS.md).
 
 Started 6 October 2026. First sample set: GluA2 (260831_WT4).
+* It's important to note this was created AFTER the publication as a way to automate future dataset measurements.
 
 ## How to run it
 
