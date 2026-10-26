@@ -44,6 +44,21 @@ The pan-ExM-t sample preparation itself is also theirs. Pan-ExM was introduced b
 - **bioformats2raw / NGFF-Converter** (Glencoe Software) and **Bio-Formats** (Open Microscopy Environment): conversion of the microscope files to OME-Zarr.
 - **FIJI / ImageJ**: not used by the code, but its Plot Profile tool is what the paper measured with, and what the "peak-to-peak" option imitates.
 
+### What to cite in a paper
+
+No code was copied from any GitHub repository, so there is no licence notice to carry. The three repositories above were read for ideas only. A methods section should cite the paper for the method and the libraries the analysis runs on:
+
+- M'Saad, Cairns et al., *Nat. Biotechnol.* 2025 (the DP–PSD method, the 81.9 nm reference, the synapse classes).
+- van der Walt et al., scikit-image: image processing in Python, *PeerJ* 2:e453 (2014).
+- Virtanen et al., SciPy 1.0, *Nat. Methods* 17, 261–272 (2020).
+- Harris et al., Array programming with NumPy, *Nature* 585, 357–362 (2020).
+- Hunter, Matplotlib: a 2D graphics environment, *Comput. Sci. Eng.* 9, 90–95 (2007).
+- Linkert et al., Metadata matters: access to image data in the real world (Bio-Formats), *J. Cell Biol.* 189, 777–782 (2010).
+- Gray, Axo-somatic and axo-dendritic synapses of the cerebral cortex, *J. Anat.* 93, 420–433 (1959), for the type I / type II classes.
+- Dask, Zarr, Neuroglancer and bioformats2raw have no journal paper; cite their project pages and the version used.
+
+If the Janelia detector's ideas are mentioned, cite its repository. Check each reference against the journal before submission.
+
 ### Written here
 
 The detection, measurement, log and comparison code was written in October 2026 by Claude (Anthropic's AI model, through Claude Code), directed by a member of the Kuan Lab, on top of the lab's Zarr Batch Converter. The images are the lab's own.
